@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi, I'm Resad Zacina 👋
 
-<!--
-**resadzacina/resadzacina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Geek / Founder / Operator / Venture builder working across **software engineering, AI-assisted delivery, startup studios, and product strategy**.
 
-Here are some ideas to get you started:
+Co-founder of **Ministry of Programming**, where we’ve helped build **122 products over 11+ years** for startups, scaleups, corporates, and venture-backed companies.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## What I Work On
+
+```txt
+Spec-Driven Development
+AI-assisted engineering workflows
+Startup studio infrastructure
+Internal developer platforms
+Venture building systems
+Technical product strategy
+Startup intelligence 
+Delivery quality and operational tooling
