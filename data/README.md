@@ -7,6 +7,7 @@
 | GitHub profile | `README.md` Latest strip |
 | GitHub archive | `ARCHIVE.md` — every record, grouped |
 | GitHub Pages + site Media | `docs/catalog.json` → `docs/media.html` |
+| Vercel (`resadzacina.com`) | same `docs/` folder — connect this repo, output `docs` |
 
 YouTube and X on Media stay as they are. Homepage copy, design, and other pages are not edited to add mentions — add a record here instead.
 
