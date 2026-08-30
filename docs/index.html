@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resad Zacina — Archive</title>
+  <meta name="description" content="A living ledger of writing, press, talks, podcasts, and videos about Resad Zacina.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="kicker">
+        <span>The Resad Zacina ledger</span>
+        <span id="scanned">Scanning…</span>
+      </div>
+      <h1 class="wordmark">resad<span>.</span></h1>
+      <p class="standfirst">Geek / Founder / Operator / Venture builder. A continuously updated index of articles, old pieces, new writing, videos, podcasts, and talks — tagged back to the work.</p>
+      <nav class="nav">
+        <a href="#latest-section">Latest</a>
+        <a href="#archive-section">Archive</a>
+        <a href="#work-section">Work</a>
+        <a href="#portfolio-section">Portfolio</a>
+        <a href="#connect-section">Connect</a>
+        <a href="https://github.com/resadzacina/resadzacina">GitHub profile</a>
+      </nav>
+    </header>
+
+    <section class="hero-grid" id="work-section">
+      <div>
+        <p class="lede">Building the future, one startup at a time — and keeping the public trail in one place.</p>
+        <p class="about">Co-founder of <a href="https://ministryofprogramming.com/">Ministry of Programming</a>, where the studio has helped build 122 products over 11+ years for startups, scaleups, corporates, and venture-backed companies. Stockholm-based. Sarajevo-built.</p>
+        <p class="about">The existing work areas stay. Each one is now a live thread: click it and the archive filters to writing, press, podcasts, and video on that subject — old and new, side by side.</p>
+        <div class="stats">
+          <div class="stat"><b>122</b><span>Products</span></div>
+          <div class="stat"><b>11+</b><span>Years</span></div>
+          <div class="stat"><b>2×</b><span>FT1000</span></div>
+          <div class="stat"><b>10</b><span>Portfolio cos.</span></div>
+        </div>
+      </div>
+      <aside class="side-card">
+        <h2>What I work on</h2>
+        <ul class="work-list" id="work-list"></ul>
+        <p class="note" style="margin-top:14px">Same list as the GitHub profile. Here it is a filter, not a slogan.</p>
+      </aside>
+    </section>
+
+    <section id="latest-section">
+      <div class="section-head">
+        <h2 class="display">Latest</h2>
+        <p class="note" id="count"></p>
+      </div>
+      <div class="cards" id="latest"></div>
+    </section>
+
+    <section id="archive-section">
+      <div class="section-head">
+        <h2 class="display">The archive</h2>
+        <p class="note">Writing, press, podcasts, video, talks, and posts — one catalog, many doors in.</p>
+      </div>
+      <input class="search" id="search" type="search" placeholder="Search titles, sources, topics…">
+      <div class="filters" id="type-filters"></div>
+      <div class="filters" id="topic-filters"></div>
+      <div class="cards" id="archive"></div>
+    </section>
+
+    <section id="portfolio-section">
+      <div class="section-head">
+        <h2 class="display">Portfolio</h2>
+        <p class="note">Early-stage companies across Europe and beyond. Sweat and cash.</p>
+      </div>
+      <div class="portfolio" id="portfolio"></div>
+    </section>
+
+    <section id="connect-section">
+      <div class="section-head">
+        <h2 class="display">Find me</h2>
+      </div>
+      <div class="connect">
+        <a href="https://www.linkedin.com/in/resadzacina">LinkedIn</a>
+        <a href="https://reshosis.medium.com/">Medium</a>
+        <a href="https://resadzacina.com/">resadzacina.com</a>
+        <a href="https://ministryofprogramming.com/people/resad-zacina">MOP</a>
+        <a href="https://bsky.app/profile/reshosis.bsky.social">Bluesky</a>
+        <a href="mailto:resad@ministryofprogramming.com">Email</a>
+      </div>
+    </section>
+
+    <footer>
+      GitHub profile README stays the short version. This page is the living ledger. Add a record to data/catalog.json or let the weekly scan pull Medium and the MOP blog.
+    </footer>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

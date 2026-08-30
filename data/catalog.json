@@ -1,0 +1,612 @@
+{
+  "updatedAt": "2026-08-30",
+  "scannedAt": "2026-08-30",
+  "person": {
+    "name": "Resad Zacina",
+    "headline": "Geek / Founder / Operator / Venture builder",
+    "location": "Stockholm, Sweden",
+    "email": "resad@ministryofprogramming.com",
+    "site": "https://resadzacina.com/",
+    "role": "Co-Founder & Chief Growth Officer, Ministry of Programming"
+  },
+  "topics": [
+    {
+      "id": "spec-driven",
+      "label": "Spec-Driven Development"
+    },
+    {
+      "id": "ai",
+      "label": "AI-assisted engineering"
+    },
+    {
+      "id": "venture-building",
+      "label": "Startup studio & venture building"
+    },
+    {
+      "id": "platforms",
+      "label": "Internal developer platforms"
+    },
+    {
+      "id": "product-strategy",
+      "label": "Technical product strategy"
+    },
+    {
+      "id": "startup-intelligence",
+      "label": "Startup intelligence"
+    },
+    {
+      "id": "delivery",
+      "label": "Delivery quality & ops tooling"
+    },
+    {
+      "id": "angel-investing",
+      "label": "Angel investing"
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership & culture"
+    },
+    {
+      "id": "ecosystem",
+      "label": "Regional ecosystem"
+    }
+  ],
+  "sources": [
+    {
+      "id": "medium",
+      "label": "Medium — @reshosis",
+      "url": "https://reshosis.medium.com/",
+      "feed": "https://medium.com/feed/@reshosis",
+      "kind": "writing"
+    },
+    {
+      "id": "mop-blog",
+      "label": "Ministry of Programming Blog",
+      "url": "https://ministryofprogramming.com/blog",
+      "feed": "https://ministryofprogramming.com/blog/rss.xml",
+      "kind": "writing"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/resadzacina",
+      "kind": "posts"
+    },
+    {
+      "id": "personal-site",
+      "label": "resadzacina.com",
+      "url": "https://resadzacina.com/",
+      "kind": "site"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube — Resad Zacina",
+      "url": "https://www.youtube.com/@resadzacina",
+      "kind": "video"
+    }
+  ],
+  "items": [
+    {
+      "id": "li-people-who-helped-2026",
+      "type": "post",
+      "title": "You should never forget the people who helped you build the company",
+      "date": "2026-08-11",
+      "url": "https://www.linkedin.com/posts/resadzacina_you-should-never-forget-the-people-who-helped-activity-7492878748237643776-1eWv",
+      "source": "LinkedIn",
+      "summary": "On Tarik Hamzic and Asim Halilbašić — the operators behind FT high-growth awards, airport runs, and a culture that still sits together as friends.",
+      "topics": [
+        "leadership",
+        "venture-building"
+      ]
+    },
+    {
+      "id": "li-sell-integrate-map-launch-2026",
+      "type": "post",
+      "title": "Sell. Integrate. Map. Launch. — why foundation-model labs will ship your product",
+      "date": "2026-07-31",
+      "url": "https://www.linkedin.com/posts/resadzacina_every-time-you-send-a-prompt-to-openai-anthropic-activity-7488944508068364288-G44W",
+      "source": "LinkedIn",
+      "summary": "Every prompt makes your product better and teaches the labs your market. The pattern: sell, integrate, map, launch. Build a moat or become someone else's blueprint.",
+      "topics": [
+        "ai",
+        "product-strategy",
+        "startup-intelligence"
+      ]
+    },
+    {
+      "id": "li-analog-businesses-2026",
+      "type": "post",
+      "title": "The more AI floods everything, the more people want analog",
+      "date": "2026-07-28",
+      "url": "https://www.linkedin.com/posts/resadzacina_my-older-son-keeps-asking-me-if-ai-is-going-activity-7487972986495340544-bYt1",
+      "source": "LinkedIn",
+      "summary": "A conversation with his son about whether AI takes over the world — and why live events, real experiences, and analog businesses are the counter-move.",
+      "topics": [
+        "ai",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "ai-interconnect-venture-building-2026",
+      "type": "podcast",
+      "title": "A masterclass on what true venture building looks like behind the scenes",
+      "date": "2026-06-03",
+      "url": "https://www.linkedin.com/posts/aiinterconnect-podcast_resad-zacina-from-ministry-of-programming-activity-7467931307537432576-Wj-x",
+      "source": "AI InterConnect Podcast",
+      "summary": "Resad on going from the fundraising trenches to helping take NAGA through the fastest IPO in Germany in 15 years — total immersion, full-cycle support, human-in-the-loop.",
+      "topics": [
+        "venture-building",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "li-slack-ai-agents-2026",
+      "type": "post",
+      "title": "Most teams talk about using AI. Here is a small example that actually shipped.",
+      "date": "2026-03-23",
+      "url": "https://www.linkedin.com/posts/resadzacina_most-teams-talk-about-using-ai-but-dont-activity-7441751860736331776-QaCz",
+      "source": "LinkedIn",
+      "summary": "Lightweight Slack agents at MOP — Sara turns project work into status updates automatically. Pick a weekly workflow, automate it, ship, iterate.",
+      "topics": [
+        "ai",
+        "delivery",
+        "platforms"
+      ]
+    },
+    {
+      "id": "li-sdd-seven-teams-2026",
+      "type": "post",
+      "title": "AI-first Spec-Driven Development is now live on 7 MOP teams",
+      "date": "2026-03-06",
+      "url": "https://www.linkedin.com/posts/resadzacina_softwaredevelopment-specdrivendevelopment-activity-7435824477554282498-7SRm",
+      "source": "LinkedIn",
+      "summary": "A painful six-week rollout led by Lejla Imamovic and Elmana Pelko. SDD forces thinking before building. Process change without buy-in is just bureaucracy.",
+      "topics": [
+        "spec-driven",
+        "ai",
+        "delivery"
+      ]
+    },
+    {
+      "id": "li-attention-economy-2026",
+      "type": "post",
+      "title": "Your most valuable asset is not money. It is attention.",
+      "date": "2026-02-18",
+      "url": "https://www.linkedin.com/posts/resadzacina_you-think-your-most-valuable-asset-is-your-activity-7429789277133201411-93kr",
+      "source": "LinkedIn",
+      "summary": "Seven hours of screens, 42-second focus, 10,000 ads a day. He stopped letting algorithms decide what he reads and built an intentional information flow.",
+      "topics": [
+        "leadership",
+        "startup-intelligence"
+      ]
+    },
+    {
+      "id": "li-ai-fatigue-2026",
+      "type": "post",
+      "title": "AI made us 3x more productive. It also made us 3x more exhausted.",
+      "date": "2026-02-13",
+      "url": "https://www.linkedin.com/posts/resadzacina_ai-fatigue-is-real-and-nobody-talks-about-activity-7427977405786537984-5Tb_",
+      "source": "LinkedIn",
+      "summary": "When each task takes less time, you do more tasks. The real skill of the AI era is knowing when something is good enough — then closing the laptop.",
+      "topics": [
+        "ai",
+        "leadership"
+      ]
+    },
+    {
+      "id": "li-mop-10-5-years-2026",
+      "type": "post",
+      "title": "10.5 years of Ministry of Programming",
+      "date": "2026-01-27",
+      "url": "https://www.linkedin.com/posts/resadzacina_105-years-of-ministry-of-programming-activity-7421816776847622145-SZFb",
+      "source": "LinkedIn",
+      "summary": "120 products built, 13+ investments, 500+ people hired, 2× FT1000, 200+ events, €500M+ in shareholder value. Next phase: compounding ownership and platforms.",
+      "topics": [
+        "venture-building",
+        "angel-investing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "li-judgment-ai-era-2026",
+      "type": "post",
+      "title": "Judgment is everything in the AI era",
+      "date": "2026-01-05",
+      "url": "https://www.linkedin.com/posts/resadzacina_judgment-is-everything-in-the-ai-era-ai-activity-7413953685828890624-53uJ",
+      "source": "LinkedIn",
+      "summary": "AI can crunch data and offer paths. Humans remain responsible for the decisions.",
+      "topics": [
+        "ai",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "mop-speed-vs-quality-2025",
+      "type": "writing",
+      "title": "Speed vs Quality in Product Development: How to Ship Fast Without Breaking Things",
+      "date": "2025-12-25",
+      "url": "https://ministryofprogramming.com/blog/speed-vs-quality-in-product-development-avoiding-costly-tradeoffs",
+      "source": "Ministry of Programming",
+      "summary": "Winning teams do not choose speed or quality. They define what quality means at each stage, overlap work, and ship with shields instead of certainty.",
+      "topics": [
+        "product-strategy",
+        "delivery"
+      ]
+    },
+    {
+      "id": "mop-product-partner-2025",
+      "type": "writing",
+      "title": "What You Should Actually Expect from a Strategic Product Partner in 2025",
+      "date": "2025-10-28",
+      "url": "https://ministryofprogramming.com/blog/what-you-should-actually-expect-from-a-strategic-product-partner-in-2025",
+      "source": "Ministry of Programming",
+      "summary": "A product partner is not a code vending machine. Ask what they would cut from the MVP. If they have no opinion, keep looking.",
+      "topics": [
+        "product-strategy",
+        "venture-building"
+      ]
+    },
+    {
+      "id": "mop-lovable-mvp-2025",
+      "type": "writing",
+      "title": "How to Upgrade from a Lovable MVP to a Production-Grade System",
+      "date": "2025-08-27",
+      "url": "https://ministryofprogramming.com/blog/how-to-transition-from-a-lovable-mvp-to-a-fully-coded-application-a-complete-roadmap-in-2025",
+      "source": "Ministry of Programming",
+      "summary": "Three transition paths from no-code MVP to production: hybrid GitHub layer, split backend, or full rewrite — and the industry gates that make rewrite non-optional.",
+      "topics": [
+        "product-strategy",
+        "ai",
+        "delivery"
+      ]
+    },
+    {
+      "id": "mop-vibe-coding-2025",
+      "type": "writing",
+      "title": "The horrors of vibe coding",
+      "date": "2025-05-16",
+      "url": "https://ministryofprogramming.com/blog/the-horrors-of-vibe-coding",
+      "source": "Ministry of Programming",
+      "summary": "A Stockholm startup shipped fast, then left the admin interface exposed. Vibe coding looks like magic until you cannot debug the castle you did not build.",
+      "topics": [
+        "ai",
+        "delivery",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "mop-sdd-standard",
+      "type": "writing",
+      "title": "Spec Driven Development as a Standard",
+      "date": "2025-03-01",
+      "url": "https://ministryofprogramming.com/blog/spec-driven-development-as-a-standard",
+      "source": "Ministry of Programming",
+      "summary": "The spec is the source of truth. Code is the output. SDD makes the decisions of the first few hours legible — including to the AI doing the work alongside you.",
+      "topics": [
+        "spec-driven",
+        "ai",
+        "delivery"
+      ]
+    },
+    {
+      "id": "amer-podcast-50m-studio-2025",
+      "type": "podcast",
+      "title": "#5 — Faris and Resad Zacina: How We Built a €50M Startup Studio",
+      "date": "2025-01-28",
+      "url": "https://amergrgic.com/podcast/5-faris-and-resad-zacina-how-we-built-a-50m-startup-studio/",
+      "source": "Amer's Podcast",
+      "summary": "Ten years of Ministry of Programming: from coding MVPs to full venture support, COVID hiring of nearly 100 people, MOP Sweden, and why human collaboration still beats solo AI.",
+      "topics": [
+        "venture-building",
+        "ai",
+        "leadership"
+      ],
+      "related": [
+        "amer-podcast-youtube-2025"
+      ]
+    },
+    {
+      "id": "amer-podcast-youtube-2025",
+      "type": "video",
+      "title": "Amer's Podcast — How We Built a €50M Startup Studio (video)",
+      "date": "2025-01-28",
+      "url": "https://youtu.be/fqw7cTUgsaU",
+      "source": "YouTube",
+      "summary": "Full video of the conversation with Amer Grgić and Faris Zacina on studio building, remote culture, and AI.",
+      "topics": [
+        "venture-building",
+        "ai",
+        "leadership"
+      ],
+      "related": [
+        "amer-podcast-50m-studio-2025"
+      ]
+    },
+    {
+      "id": "medium-sweat-equity",
+      "type": "writing",
+      "title": "Unlocking Startup Potential: How Sweat Equity Investing Creates Win-Win Partnerships",
+      "date": "2025-01-04",
+      "url": "https://medium.com/ministry-of-programming-entrepreneurship/unlocking-startup-potential-how-sweat-equity-investing-creates-win-win-partnerships-017b1d70a138",
+      "source": "Medium",
+      "summary": "Years of angel investing through Ministry of Programming — how sweat equity creates aligned partnerships instead of cash-only checks.",
+      "topics": [
+        "angel-investing",
+        "venture-building"
+      ]
+    },
+    {
+      "id": "itlogs-angel-investing-2024",
+      "type": "press",
+      "title": "This Bosnian startup studio champions angel investing across the region",
+      "date": "2024-05-15",
+      "url": "https://v1.itlogs.com/this-bosnian-startup-studio-champions-angel-investing-across-the-region/",
+      "source": "IT Logs",
+      "summary": "Money Motion 2024 interview: the Stockholm–Sarajevo origin story, Bosnian Angels Network, and the Beehold syndicate as a first regional investment.",
+      "topics": [
+        "angel-investing",
+        "ecosystem",
+        "venture-building"
+      ]
+    },
+    {
+      "id": "ft1000-2024",
+      "type": "press",
+      "title": "FT 1000: Europe's fastest-growing companies — Ministry of Programming, again",
+      "date": "2024-02-29",
+      "url": "https://www.ft.com/ft-1000",
+      "source": "Financial Times",
+      "summary": "Second appearance on the Financial Times FT1000 list of Europe's fastest-growing companies (first in 2020).",
+      "topics": [
+        "venture-building",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": "di-digital-2020",
+      "type": "press",
+      "title": "Han kastades ut från Sverige – nu driver kodaren Bosniens snabbast växande bolag",
+      "date": "2020-03-06",
+      "url": "https://www.di.se/digital/han-kastades-ut-fran-sverige-nu-driver-kodaren-bosniens-snabbast-vaxande-bolag/",
+      "source": "Dagens industri",
+      "summary": "The Fishbrain-to-Sarajevo story: a star engineer leaves Sweden on a visa technicality and builds Bosnia's fastest-growing tech company — still serving Swedish startups.",
+      "topics": [
+        "ecosystem",
+        "venture-building",
+        "leadership"
+      ]
+    },
+    {
+      "id": "ft1000-2020",
+      "type": "press",
+      "title": "FT 1000: the fourth annual list of Europe's fastest-growing companies",
+      "date": "2020-03-02",
+      "url": "https://www.ft.com/ft-1000-2020",
+      "source": "Financial Times",
+      "summary": "First FT1000 ranking for Ministry of Programming, marking the studio as one of Europe's fastest-growing companies.",
+      "topics": [
+        "venture-building",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": "restart-success-story-2020",
+      "type": "press",
+      "title": "Success story: Ministry of Programming",
+      "date": "2020-10-16",
+      "url": "https://restart.ba/2020/10/16/success-story-ministry-of-programming/",
+      "source": "Restart.ba",
+      "summary": "From rented coworking tables to 600 m² and 80 people in three years. Resad on choosing startup production over a typical services shop.",
+      "topics": [
+        "venture-building",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": "medium-ninja-productivity-2020",
+      "type": "writing",
+      "title": "Ninja productivity toolbox — part 1: voice memos and dictation",
+      "date": "2020-05-01",
+      "url": "https://medium.com/ministry-of-programming-entrepreneurship/ninja-productivity-toolbox-part-1-voice-memos-and-dictation-50c8fae4ac6a",
+      "source": "Medium",
+      "summary": "How to use voice memos and dictation to ignite productivity — an early operator's toolkit piece.",
+      "topics": [
+        "delivery",
+        "leadership"
+      ]
+    },
+    {
+      "id": "medium-startup-analytics-2020",
+      "type": "writing",
+      "title": "Early stage startup analytics",
+      "date": "2020-02-27",
+      "url": "https://medium.com/ministry-of-programming-entrepreneurship/early-stage-startup-analytics-fc28785a215",
+      "source": "Medium",
+      "summary": "Event-based analytics for early-stage products using Segment, Customer.io, Mixpanel, and Google Analytics.",
+      "topics": [
+        "startup-intelligence",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "bits-vs-bytes-2019",
+      "type": "podcast",
+      "title": "058 — Building Startups with Ministry of Programming",
+      "date": "2019-10-08",
+      "url": "https://bitsvsbytes.com/podcast/058-building-startups-ministry-of-programming/",
+      "source": "Bits vs Bytes",
+      "summary": "Faris and Resad on becoming technical co-founders, what makes startups succeed, and how to pick a stack when you are just starting out.",
+      "topics": [
+        "venture-building",
+        "product-strategy"
+      ],
+      "related": [
+        "bits-vs-bytes-youtube-2019"
+      ]
+    },
+    {
+      "id": "bits-vs-bytes-youtube-2019",
+      "type": "video",
+      "title": "Building Startups with Ministry of Programming (video)",
+      "date": "2019-10-08",
+      "url": "https://www.youtube.com/watch?v=2qDvPUlKekQ",
+      "source": "YouTube",
+      "summary": "Video recording of the Bits vs Bytes conversation — still the episode MOP points people to for the studio philosophy.",
+      "topics": [
+        "venture-building",
+        "product-strategy"
+      ],
+      "related": [
+        "bits-vs-bytes-2019"
+      ]
+    },
+    {
+      "id": "deloitte-fast50-2019",
+      "type": "press",
+      "title": "Deloitte Technology Fast 50 Central Europe — Ministry of Programming, 21st",
+      "date": "2019-10-18",
+      "url": "https://www2.deloitte.com/ba/en/pages/press-releases/articles/ministry-of-programming-deloitte-fast-50.html",
+      "source": "Deloitte Bosnia",
+      "summary": "First appearance among Central Europe's 50 fastest-growing technology companies.",
+      "topics": [
+        "venture-building",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": "tedx-everybody-matters-2019",
+      "type": "talk",
+      "title": "Why everybody matters",
+      "date": "2019-03-01",
+      "url": "https://www.ted.com/talks/resad_zacina_why_everybody_matters",
+      "source": "TEDxFerhadija",
+      "summary": "On brain drain and the myth that the grass is greener elsewhere — a case that ambitious work is possible in your own community.",
+      "topics": [
+        "ecosystem",
+        "leadership"
+      ]
+    },
+    {
+      "id": "medium-survive-startup-2016",
+      "type": "writing",
+      "title": "How to survive a startup",
+      "date": "2016-06-08",
+      "url": "https://medium.com/mop-developers/how-to-survive-a-startup-2a7675d5b802",
+      "source": "Medium",
+      "summary": "Early MOP writing: what a startup actually is, and the habits that keep you standing.",
+      "topics": [
+        "venture-building",
+        "leadership"
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "HyBird",
+      "year": "2019",
+      "place": "London",
+      "sector": "AI robotics",
+      "url": "https://www.linkedin.com/company/hybird-ltd",
+      "blurb": "AI-powered industrial operating system and robotic inspection. Techstars Starburst; NASA JPL and aerospace backers."
+    },
+    {
+      "name": "Nordic Angels",
+      "year": "2020",
+      "place": "Nordics",
+      "sector": "Angel network",
+      "url": "https://www.linkedin.com/company/nordic-angels",
+      "blurb": "Partner and senior advisor at the largest Nordic angel network. First-investor generation."
+    },
+    {
+      "name": "MIOO Cycling",
+      "year": "2019",
+      "place": "Stockholm",
+      "sector": "Mobility",
+      "url": "https://www.linkedin.com/company/mioo-cycling",
+      "blurb": "Co-founder. Subscription bike service so everyday cyclists keep riding."
+    },
+    {
+      "name": "Transparent",
+      "year": "2024",
+      "place": "Stockholm",
+      "sector": "Consumer electronics",
+      "url": "https://www.linkedin.com/company/tran8parent",
+      "blurb": "Modular, upgradeable speakers — circular hardware featured in Vogue."
+    },
+    {
+      "name": "BioCertica",
+      "year": "2020",
+      "place": "Cape Town",
+      "sector": "HealthTech",
+      "url": "https://www.linkedin.com/company/eightygood",
+      "blurb": "Africa's first D2C genetics company with encrypted bio-identity."
+    },
+    {
+      "name": "Circulaire",
+      "year": "2024",
+      "place": "Stockholm",
+      "sector": "Circular fashion data",
+      "url": "https://www.linkedin.com/company/circulaire",
+      "blurb": "Data platform for second-hand marketplaces — pricing, analytics, less textile waste."
+    },
+    {
+      "name": "Beehold",
+      "year": "2023",
+      "place": "Niš, Serbia",
+      "sector": "AgTech",
+      "url": "https://www.linkedin.com/company/beehold",
+      "blurb": "AI hive monitoring. First syndicate deal through the Bosnian Angels Network."
+    },
+    {
+      "name": "SUP (Startup People)",
+      "year": "2023",
+      "place": "Stockholm",
+      "sector": "Community",
+      "url": "https://www.linkedin.com/company/sup46",
+      "blurb": "Investor and advisor. Nordic community platform for founders and operators."
+    },
+    {
+      "name": "War On Cancer",
+      "year": "2017",
+      "place": "Stockholm",
+      "sector": "HealthTech",
+      "url": "https://waroncancer.com/",
+      "blurb": "Social network for patients, survivors, and families — the earliest public portfolio check."
+    },
+    {
+      "name": "hummy.social",
+      "year": "2023",
+      "place": "Stockholm",
+      "sector": "Social",
+      "url": "https://www.linkedin.com/company/hummy-social",
+      "blurb": "Social without likes and vanity metrics — interest threads over performance."
+    }
+  ],
+  "roles": [
+    {
+      "org": "Ministry of Programming",
+      "title": "Co-Founder & Chief Growth Officer",
+      "since": "2015"
+    },
+    {
+      "org": "Nordic Angels",
+      "title": "Angel Investor, Partner & Senior Advisor",
+      "since": "2020"
+    },
+    {
+      "org": "Founder Institute",
+      "title": "Mentor",
+      "since": "2025"
+    },
+    {
+      "org": "Startup Grind Nordics",
+      "title": "Mentor",
+      "since": "2025"
+    },
+    {
+      "org": "Connect Sverige",
+      "title": "Mentor",
+      "since": "2025"
+    }
+  ]
+}
