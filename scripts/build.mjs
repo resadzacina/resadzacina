@@ -24,8 +24,8 @@ function line(item) {
 
 const items = byDate(catalog.items || []);
 
-mkdirSync(join(root, "docs"), { recursive: true });
-writeFileSync(join(root, "docs/catalog.json"), `${JSON.stringify(catalog, null, 2)}\n`);
+mkdirSync(join(root, "site-media"), { recursive: true });
+writeFileSync(join(root, "site-media/catalog.json"), `${JSON.stringify(catalog, null, 2)}\n`);
 
 const latest = items.slice(0, 6).map((item) => (
   `- **${item.date}** · ${item.type} · [${item.title}](${item.url}) — ${item.source}`
@@ -48,7 +48,7 @@ const archiveBody = [
   "# Archive",
   "",
   `Generated ${catalog.scannedAt || catalog.updatedAt} from [\`data/catalog.json\`](data/catalog.json).`,
-  "Same pipeline as the [GitHub profile](README.md) and [Media](https://resadzacina.com/media.html).",
+  "GitHub profile archive. The personal site lives at [resadzacina.com](https://resadzacina.com/).",
   "",
   `**${items.length} records.**`,
   "",
@@ -65,4 +65,4 @@ const archiveBody = [
 
 writeFileSync(join(root, "ARCHIVE.md"), `${archiveBody}\n`);
 
-console.log(`Published ${items.length} items → README.md, ARCHIVE.md, docs/catalog.json`);
+console.log(`Published ${items.length} items → README.md, ARCHIVE.md, site-media/catalog.json`);

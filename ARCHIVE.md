@@ -1,7 +1,7 @@
 # Archive
 
 Generated 2026-08-30 from [`data/catalog.json`](data/catalog.json).
-Same pipeline as the [GitHub profile](README.md) and [Media](https://resadzacina.com/media.html).
+GitHub profile archive. The personal site lives at [resadzacina.com](https://resadzacina.com/).
 
 **30 records.**
 

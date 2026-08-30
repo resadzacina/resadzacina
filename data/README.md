@@ -1,14 +1,16 @@
 # Media catalog
 
-`catalog.json` is the single pipeline. `scripts/scan.mjs` pulls watched feeds. `scripts/build.mjs` publishes to every surface:
+`catalog.json` is the pipeline for this GitHub profile. It is not the live website.
+
+`scripts/scan.mjs` pulls watched feeds. `scripts/build.mjs` publishes to:
 
 | Surface | Output |
 | --- | --- |
 | GitHub profile | `README.md` Latest strip |
-| GitHub archive | `ARCHIVE.md` — every record, grouped |
-| GitHub Pages + site Media | `docs/catalog.json` → `docs/media.html` |
+| GitHub archive | `ARCHIVE.md` |
+| Handoff for the Vercel site | `site-media/catalog.json` |
 
-YouTube and X on Media stay as they are. Homepage copy, design, and other pages are not edited to add mentions — add a record here instead.
+resadzacina.com is a different repo. Copy files from `site-media/` into that repo to expand Media only.
 
 ```json
 {
