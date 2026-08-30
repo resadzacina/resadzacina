@@ -1,6 +1,6 @@
 # Media catalog
 
-`catalog.json` is the pipeline for this GitHub profile. It is not the live website.
+`catalog.json` is the pipeline for this GitHub profile. It is not the live website. How the pipeline works: [FRESHNESS.md](../FRESHNESS.md).
 
 `scripts/scan.mjs` pulls watched feeds. `scripts/build.mjs` publishes to:
 
