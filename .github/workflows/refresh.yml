@@ -18,16 +18,16 @@ jobs:
           node-version: "20"
       - name: Scan watched feeds
         run: node scripts/scan.mjs
-      - name: Rebuild README and site catalog
+      - name: Copy catalog onto the Media page
         run: node scripts/build.mjs
-      - name: Commit if the ledger moved
+      - name: Commit if new mentions were found
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog.json docs/catalog.json README.md
+          git add data/catalog.json docs/catalog.json
           if git diff --staged --quiet; then
-            echo "No ledger changes"
+            echo "No catalog changes"
           else
-            git commit -m "Refresh Resad Zacina archive from watched feeds"
+            git commit -m "Refresh Media catalog from watched feeds"
             git push
           fi
