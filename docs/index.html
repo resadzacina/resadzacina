@@ -1,98 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resad Zacina — Archive</title>
-  <meta name="description" content="A living ledger of writing, press, talks, podcasts, and videos about Resad Zacina.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Resad Zacina | Entrepreneur, Investor & Startup Expert</title>
+    <meta name="title" content="Resad Zacina | Entrepreneur, Investor & Startup Expert">
+    <meta name="description" content="Co-Founder of Ministry of Programming (Deloitte Top 50). Angel investor in 10 portfolio companies across Europe. Mentor at Founder Institute, Startup Grind & Connect Öst Sverige.">
+    <meta name="keywords" content="Resad Zacina, Angel Investing, Startup Investor, Ministry of Programming, Nordic Angels, Entrepreneur, Startup Mentor, Stockholm, European Startups, Venture Capital">
+    <meta name="author" content="Resad Zacina">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://resadzacina.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://resadzacina.com/">
+    <meta property="og:title" content="Resad Zacina | Entrepreneur, Investor & Startup Expert">
+    <meta property="og:description" content="Co-Founder of Ministry of Programming (Deloitte Top 50). Angel investor in 10 portfolio companies across Europe. Mentor at Founder Institute, Startup Grind & Connect Öst Sverige.">
+    <meta property="og:image" content="https://resadzacina.com/img/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Resad Zacina">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://resadzacina.com/">
+    <meta property="twitter:title" content="Resad Zacina | Entrepreneur, Investor & Startup Expert">
+    <meta property="twitter:description" content="Co-Founder of Ministry of Programming (Deloitte Top 50). Angel investor in 10 portfolio companies across Europe. Mentor at Founder Institute, Startup Grind & Connect Öst Sverige.">
+    <meta property="twitter:image" content="https://resadzacina.com/img/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/modern-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) - Enhanced for AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://resadzacina.com"}
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://resadzacina.com/#person",
+          "name": "Resad Zacina",
+          "givenName": "Resad",
+          "familyName": "Zacina",
+          "url": "https://resadzacina.com",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://resadzacina.com/img/og-image.jpg",
+            "width": 1200,
+            "height": 630
+          },
+          "jobTitle": "Co-Founder & Chief Growth Officer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Ministry of Programming",
+            "url": "https://ministryofprogramming.com"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Stockholm",
+            "addressCountry": "Sweden"
+          },
+          "email": "resad@ministryofprogramming.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/resadzacina",
+            "https://twitter.com/Reshosis",
+            "https://www.instagram.com/reshosis/"
+          ],
+          "description": "Entrepreneur, investor, and startup expert with 15+ years experience. Co-Founder of Ministry of Programming (Deloitte Top 50, 813% growth). Angel investor in 10 portfolio companies across Europe. Mentor at Founder Institute, Startup Grind, and Connect Öst Sverige.",
+          "knowsAbout": [
+            "Entrepreneurship",
+            "Angel Investing",
+            "Startup Development",
+            "Software Development",
+            "Product Management",
+            "Technical Architecture",
+            "Fundraising",
+            "Mentorship",
+            "AI and Machine Learning",
+            "FinTech",
+            "HealthTech"
+          ],
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University Džemal Bijedić in Mostar"
+          },
+          "award": [
+            "Deloitte Fast 50 - 813% Growth",
+            "Financial Times FT1000 (2020)",
+            "Financial Times FT1000 (2024)"
+          ],
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "IT Engineer Diploma",
+              "credentialCategory": "degree"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://resadzacina.com/#website",
+          "url": "https://resadzacina.com",
+          "name": "Resad Zacina",
+          "description": "Personal website of Resad Zacina - Entrepreneur, Investor & Startup Expert",
+          "publisher": {"@id": "https://resadzacina.com/#person"},
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://resadzacina.com/#webpage",
+          "url": "https://resadzacina.com",
+          "name": "Resad Zacina | Entrepreneur, Investor & Startup Expert",
+          "isPartOf": {"@id": "https://resadzacina.com/#website"},
+          "about": {"@id": "https://resadzacina.com/#person"},
+          "description": "Co-Founder of Ministry of Programming (Deloitte Top 50). Angel investor in 10 portfolio companies across Europe. Mentor at Founder Institute, Startup Grind & Connect Öst Sverige.",
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".about-text", ".brand-tagline", ".stat-number", ".stat-label"]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is Resad Zacina?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Resad Zacina is an entrepreneur, investor, and startup expert based in Stockholm, Sweden. He is the Co-Founder and Chief Growth Officer of Ministry of Programming, a Deloitte Top 50 tech company with 813% growth. He has helped launch 115+ products and is an angel investor in 10 portfolio companies across Europe."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Ministry of Programming?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ministry of Programming is a startup studio and software development company co-founded by Resad Zacina. It has achieved Deloitte Fast 50 recognition with 813% growth in 4 years and has been featured twice in the Financial Times FT1000 list of Europe's fastest-growing companies (2020 and 2024)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What companies has Resad Zacina invested in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Resad Zacina has invested in 10 portfolio companies including HyBird (robotics, $100M valuation), Nordic Angels, MIOO (mobility), Transparent (sustainable speakers), BioCertica (genetics), Circulaire (sustainable fashion), Beehold (AgTech), SUP (community platform), War On Cancer (HealthTech), and hummy.social."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Resad Zacina offer mentorship?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, Resad Zacina is a mentor at Founder Institute, Startup Grind Nordics, and Connect Öst Sverige. He focuses on technical founders, early-stage startups (Pre-Seed to Series A), product development, and the European tech ecosystem."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can I contact Resad Zacina for investment or mentorship?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can contact Resad Zacina via email at resad@ministryofprogramming.com or connect with him on LinkedIn at linkedin.com/in/resadzacina. He is interested in meeting bold founders building transformative companies."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
-  <div class="wrap">
-    <header class="masthead">
-      <div class="kicker">
-        <span>The Resad Zacina ledger</span>
-        <span id="scanned">Scanning…</span>
-      </div>
-      <h1 class="wordmark">resad<span>.</span></h1>
-      <p class="standfirst">Geek / Founder / Operator / Venture builder. A continuously updated index of articles, old pieces, new writing, videos, podcasts, and talks — tagged back to the work.</p>
-      <nav class="nav">
-        <a href="#latest-section">Latest</a>
-        <a href="#archive-section">Archive</a>
-        <a href="#work-section">Work</a>
-        <a href="#portfolio-section">Portfolio</a>
-        <a href="#connect-section">Connect</a>
-        <a href="https://github.com/resadzacina/resadzacina">GitHub profile</a>
-      </nav>
-    </header>
+    <!-- Hamburger Menu Button -->
+    <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
-    <section class="hero-grid" id="work-section">
-      <div>
-        <p class="lede">Building the future, one startup at a time — and keeping the public trail in one place.</p>
-        <p class="about">Co-founder of <a href="https://ministryofprogramming.com/">Ministry of Programming</a>, where the studio has helped build 122 products over 11+ years for startups, scaleups, corporates, and venture-backed companies. Stockholm-based. Sarajevo-built.</p>
-        <p class="about">The existing work areas stay. Each one is now a live thread: click it and the archive filters to writing, press, podcasts, and video on that subject — old and new, side by side.</p>
-        <div class="stats">
-          <div class="stat"><b>122</b><span>Products</span></div>
-          <div class="stat"><b>11+</b><span>Years</span></div>
-          <div class="stat"><b>2×</b><span>FT1000</span></div>
-          <div class="stat"><b>10</b><span>Portfolio cos.</span></div>
+    <!-- Navigation Cards -->
+    <nav class="nav-cards">
+        <a href="resume.html" class="nav-card" data-text="Experience">
+            <span class="nav-card-title">Experience</span>
+        </a>
+        <a href="investments.html" class="nav-card" data-text="Investments">
+            <span class="nav-card-title">Investments</span>
+        </a>
+        <a href="mentorship.html" class="nav-card" data-text="Mentorship">
+            <span class="nav-card-title">Mentorship</span>
+        </a>
+        <a href="media.html" class="nav-card" data-text="Media">
+            <span class="nav-card-title">Media</span>
+        </a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="content-wrapper">
+            <!-- Logo/Name -->
+            <div class="brand">
+                <div class="brand-badge">Entrepreneur & Investor</div>
+                <h1 class="brand-name">resad.</h1>
+                <p class="brand-tagline">Building the future, one startup at a time</p>
+            </div>
+
+            <!-- About Section -->
+            <section class="about-section">
+                <div class="section-header">
+                    <h2 class="section-heading">About me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <p class="about-text">
+                    I'm Resad Zacina - founder, investor, and operator obsessed with turning ideas into real businesses. Over the last decade I've helped launch 115+ products, grown Ministry of Programming into a Deloitte Fast 50 and FT1000 company, and worked across Europe, the Nordics, and MENA with founders who move fast and think big.
+                </p>
+                <p class="about-text">
+                    I've been part of standout European successes like Fishbrain, Stylemarks/Juniqe, and NAGA, and I've collaborated with enterprises such as Roche, Triton Digital, and Raiffeisen Bank on software used by millions.
+                </p>
+                <p class="about-text">
+                    At MOP, we've built a portfolio of startups that now spans AI, deep tech, health, fintech, mobility, creator economy, and more.
+                </p>
+                <p class="about-text">
+                    These days, I split my time between building AI-driven products, investing in early-stage teams, and helping founders sharpen their strategy, product, and growth. I love working with people who have intensity, obsession, and ambition — the ones who actually ship.
+                </p>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="stats-header">
+                    <h3 class="stats-title">By the numbers</h3>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">115</div>
+                    <div class="stat-label">Global Products</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">813%</div>
+                    <div class="stat-label">Growth Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Portfolio Companies</div>
+                </div>
+            </section>
+
+            <!-- Social Links -->
+            <section class="social-section">
+                <div class="section-header">
+                    <h3 class="social-heading">FIND ME AT</h3>
+                    <div class="section-line"></div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/resadzacina/" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" fill="currentColor"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://twitter.com/Reshosis" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.46 6c-.85.38-1.78.64-2.75.76a4.8 4.8 0 0 0 2.1-2.66c-.92.55-1.95.95-3.03 1.16a4.77 4.77 0 0 0-8.13 4.35A13.54 13.54 0 0 1 1.64 4.16a4.77 4.77 0 0 0 1.48 6.37 4.75 4.75 0 0 1-2.16-.6v.06a4.77 4.77 0 0 0 3.83 4.68 4.78 4.78 0 0 1-2.15.08 4.77 4.77 0 0 0 4.46 3.31A9.57 9.57 0 0 1 1 19.54 13.5 13.5 0 0 0 8.29 22c8.75 0 13.54-7.25 13.54-13.54 0-.21 0-.41-.01-.61.93-.67 1.74-1.51 2.38-2.47z" fill="currentColor"/>
+                        </svg>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://www.instagram.com/reshosis/" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z" fill="currentColor"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=vSnklePVKqk&t=3s" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z" fill="currentColor"/>
+                        </svg>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- X/Twitter Timeline -->
+            <section class="twitter-section">
+                <div class="section-header">
+                    <h3 class="social-heading">LATEST POSTS</h3>
+                    <div class="section-line"></div>
+                </div>
+                <div class="twitter-embed">
+                    <a class="twitter-timeline" 
+                       data-theme="dark" 
+                       data-height="500" 
+                       data-chrome="noheader nofooter noborders transparent"
+                       href="https://twitter.com/Reshosis?ref_src=twsrc%5Etfw">Posts by @Reshosis</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </section>
+
+            <!-- Contact Info -->
+            <section class="contact-section">
+                <div class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:resad@ministryofprogramming.com" class="contact-value">resad@ministryofprogramming.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Location</span>
+                    <span class="contact-value">Stockholm, Sweden</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Role</span>
+                    <span class="contact-value">Co-Founder & Chief Growth Officer at Ministry of Programming</span>
+                </div>
+            </section>
         </div>
-      </div>
-      <aside class="side-card">
-        <h2>What I work on</h2>
-        <ul class="work-list" id="work-list"></ul>
-        <p class="note" style="margin-top:14px">Same list as the GitHub profile. Here it is a filter, not a slogan.</p>
-      </aside>
-    </section>
+    </main>
 
-    <section id="latest-section">
-      <div class="section-head">
-        <h2 class="display">Latest</h2>
-        <p class="note" id="count"></p>
-      </div>
-      <div class="cards" id="latest"></div>
-    </section>
-
-    <section id="archive-section">
-      <div class="section-head">
-        <h2 class="display">The archive</h2>
-        <p class="note">Writing, press, podcasts, video, talks, and posts — one catalog, many doors in.</p>
-      </div>
-      <input class="search" id="search" type="search" placeholder="Search titles, sources, topics…">
-      <div class="filters" id="type-filters"></div>
-      <div class="filters" id="topic-filters"></div>
-      <div class="cards" id="archive"></div>
-    </section>
-
-    <section id="portfolio-section">
-      <div class="section-head">
-        <h2 class="display">Portfolio</h2>
-        <p class="note">Early-stage companies across Europe and beyond. Sweat and cash.</p>
-      </div>
-      <div class="portfolio" id="portfolio"></div>
-    </section>
-
-    <section id="connect-section">
-      <div class="section-head">
-        <h2 class="display">Find me</h2>
-      </div>
-      <div class="connect">
-        <a href="https://www.linkedin.com/in/resadzacina">LinkedIn</a>
-        <a href="https://reshosis.medium.com/">Medium</a>
-        <a href="https://resadzacina.com/">resadzacina.com</a>
-        <a href="https://ministryofprogramming.com/people/resad-zacina">MOP</a>
-        <a href="https://bsky.app/profile/reshosis.bsky.social">Bluesky</a>
-        <a href="mailto:resad@ministryofprogramming.com">Email</a>
-      </div>
-    </section>
-
-    <footer>
-      GitHub profile README stays the short version. This page is the living ledger. Add a record to data/catalog.json or let the weekly scan pull Medium and the MOP blog.
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Resad Zacina. All rights reserved.</p>
     </footer>
-  </div>
-  <script src="./app.js"></script>
+
+    <script src="js/modern-script.js"></script>
 </body>
 </html>

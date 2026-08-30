@@ -4,7 +4,7 @@ Geek / Founder / Operator / Venture builder working across **software engineerin
 
 Co-founder of **Ministry of Programming**, where we’ve helped build **122 products over 11+ years** for startups, scaleups, corporates, and venture-backed companies.
 
-This profile is the short version. The [living archive](https://resadzacina.github.io/resadzacina/) is the long one: every public article, old essay, new post, podcast, talk, and video — tagged back to the work below.
+This profile is the short version. The same catalog feeds the [full GitHub archive](ARCHIVE.md), [GitHub Pages / Media](https://resadzacina.github.io/resadzacina/media.html), and [Media on resadzacina.com](https://resadzacina.com/media.html).
 
 ---
 
@@ -21,22 +21,25 @@ Startup intelligence
 Delivery quality and operational tooling
 ```
 
-Each line is a live thread, not a static bio line:
+Each line is a live thread, not a static bio line. Same catalog, two doors:
 
-- [Spec-Driven Development](https://resadzacina.github.io/resadzacina/#topic=spec-driven)
-- [AI-assisted engineering workflows](https://resadzacina.github.io/resadzacina/#topic=ai)
-- [Startup studio infrastructure](https://resadzacina.github.io/resadzacina/#topic=venture-building)
-- [Internal developer platforms](https://resadzacina.github.io/resadzacina/#topic=platforms)
-- [Venture building systems](https://resadzacina.github.io/resadzacina/#topic=venture-building)
-- [Technical product strategy](https://resadzacina.github.io/resadzacina/#topic=product-strategy)
-- [Startup intelligence](https://resadzacina.github.io/resadzacina/#topic=startup-intelligence)
-- [Delivery quality and operational tooling](https://resadzacina.github.io/resadzacina/#topic=delivery)
+- [Spec-Driven Development](https://resadzacina.com/media.html#articles)
+- [AI-assisted engineering workflows](https://resadzacina.com/media.html#articles)
+- [Startup studio infrastructure](https://resadzacina.com/media.html#podcasts)
+- [Internal developer platforms](https://resadzacina.com/media.html#articles)
+- [Venture building systems](https://resadzacina.com/media.html#podcasts)
+- [Technical product strategy](https://resadzacina.com/media.html#articles)
+- [Startup intelligence](https://resadzacina.com/media.html#press)
+- [Delivery quality and operational tooling](https://resadzacina.com/media.html#articles)
 
 ---
 
 ## Latest
 
-The newest public trail, old and new mixed on purpose. Full ledger: [archive](https://resadzacina.github.io/resadzacina/#archive-section).
+The newest public trail, old and new mixed on purpose.
+
+- Full list on GitHub: [ARCHIVE.md](ARCHIVE.md)
+- Full list on the site: [Media](https://resadzacina.com/media.html)
 
 <!-- latest:start -->
 - **2026-08-11** · post · [You should never forget the people who helped you build the company](https://www.linkedin.com/posts/resadzacina_you-should-never-forget-the-people-who-helped-activity-7492878748237643776-1eWv) — LinkedIn
@@ -49,18 +52,24 @@ The newest public trail, old and new mixed on purpose. Full ledger: [archive](ht
 
 ---
 
-## How the archive stays fresh
+## How this stays fresh
 
-Public material does not live in the README. It lives in [`data/catalog.json`](data/catalog.json) — one record per article, podcast, video, talk, or post.
+Public material does not live as one-off bullets. It lives in [`data/catalog.json`](data/catalog.json) — one record per article, podcast, video, talk, or post.
+
+That file is the pipeline. One scan, three surfaces:
+
+- **this GitHub profile** (Latest + the lists below)
+- **[ARCHIVE.md](ARCHIVE.md)** (every record, grouped like Media)
+- **Media** on resadzacina.com and on [GitHub Pages](https://resadzacina.github.io/resadzacina/media.html)
 
 - **Topics** are the glue. A 2016 Medium essay and a 2026 LinkedIn note on spec-driven work sit on the same thread.
 - **Types** (`writing`, `press`, `podcast`, `video`, `talk`, `post`) let people enter from the format they actually consume.
 - **Related** links bind a podcast to its YouTube cut, or an interview to the essay it came from.
-- **Watched feeds** (Medium, MOP blog) are scanned weekly by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml). New URLs get appended; the README latest strip rebuilds itself.
+- **Watched feeds** (Medium, MOP blog) are scanned weekly by [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml). New URLs get appended; this README and the Media page both refresh from the same file.
 - Anything the scanner cannot see — a conference talk, a paywalled interview, a YouTube short — is one object away: add it to the catalog.
 
 ```txt
-scan the web → catalog.json → archive page + this README
+scan the web → catalog.json → README + ARCHIVE.md + Media (site & Pages)
 ```
 
 ---
@@ -72,7 +81,7 @@ scan the web → catalog.json → archive page + this README
 - [How to Upgrade from a Lovable MVP to a Production-Grade System](https://ministryofprogramming.com/blog/how-to-transition-from-a-lovable-mvp-to-a-fully-coded-application-a-complete-roadmap-in-2025)
 - [Unlocking Startup Potential: Sweat Equity Investing](https://medium.com/ministry-of-programming-entrepreneurship/unlocking-startup-potential-how-sweat-equity-investing-creates-win-win-partnerships-017b1d70a138)
 - [How to survive a startup](https://medium.com/mop-developers/how-to-survive-a-startup-2a7675d5b802) — 2016, still true
-- All writing → [archive · writing](https://resadzacina.github.io/resadzacina/#type=writing)
+- All writing → [Media · Articles](https://resadzacina.com/media.html#articles)
 
 ## Press & interviews
 
@@ -80,7 +89,7 @@ scan the web → catalog.json → archive page + this README
 - [Dagens industri](https://www.di.se/digital/han-kastades-ut-fran-sverige-nu-driver-kodaren-bosniens-snabbast-vaxande-bolag/) — the Sweden / Sarajevo story
 - [Restart.ba success story](https://restart.ba/2020/10/16/success-story-ministry-of-programming/)
 - [FT 1000](https://www.ft.com/ft-1000) — Europe's fastest-growing companies, 2020 and 2024
-- All press → [archive · press](https://resadzacina.github.io/resadzacina/#type=press)
+- All press → [Media · Press](https://resadzacina.com/media.html#press)
 
 ## Talks, podcasts & video
 
@@ -88,11 +97,11 @@ scan the web → catalog.json → archive page + this README
 - [Amer's Podcast #5 — How we built a €50M startup studio](https://amergrgic.com/podcast/5-faris-and-resad-zacina-how-we-built-a-50m-startup-studio/) · [YouTube](https://youtu.be/fqw7cTUgsaU)
 - [Bits vs Bytes 058 — Building startups with MOP](https://bitsvsbytes.com/podcast/058-building-startups-ministry-of-programming/) · [YouTube](https://www.youtube.com/watch?v=2qDvPUlKekQ)
 - [AI InterConnect — venture building from garage to IPO](https://www.linkedin.com/posts/aiinterconnect-podcast_resad-zacina-from-ministry-of-programming-activity-7467931307537432576-Wj-x)
-- All audio/video → [podcasts](https://resadzacina.github.io/resadzacina/#type=podcast) · [video](https://resadzacina.github.io/resadzacina/#type=video) · [talks](https://resadzacina.github.io/resadzacina/#type=talk)
+- All audio/video → [podcasts](https://resadzacina.com/media.html#podcasts) · [video](https://resadzacina.com/media.html#video) · [talks](https://resadzacina.com/media.html#talks)
 
 ## Portfolio
 
-HyBird, Nordic Angels, MIOO, Transparent, BioCertica, Circulaire, Beehold, SUP, War On Cancer, hummy.social — [full cards](https://resadzacina.github.io/resadzacina/#portfolio-section) · [resadzacina.com/investments](https://resadzacina.com/investments.html)
+HyBird, Nordic Angels, MIOO, Transparent, BioCertica, Circulaire, Beehold, SUP, War On Cancer, hummy.social — [resadzacina.com/investments](https://resadzacina.com/investments.html)
 
 ---
 
