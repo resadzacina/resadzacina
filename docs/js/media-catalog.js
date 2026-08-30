@@ -46,6 +46,8 @@
             ["writing", "press", "podcast", "talk", "video", "post"].forEach((type) => {
                 renderList(type, items);
             });
+            const target = document.getElementById(location.hash.replace(/^#/, ""));
+            if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
         })
         .catch(() => {
             document.querySelectorAll("[data-catalog]").forEach((section) => {

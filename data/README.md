@@ -1,8 +1,13 @@
 # Media catalog
 
-`catalog.json` feeds the extra sections on the original Media page (`docs/media.html`): Articles, Press, Podcasts, Talks, More video, Posts.
+`catalog.json` is the single pipeline for public material about Resad Zacina.
 
-YouTube and X on that page stay as they are. Do not edit homepage copy, design, or other pages to add mentions — add a record here instead.
+It feeds both:
+
+- the GitHub profile README (Latest + Writing / Press / Talks lists)
+- the extra sections on the original Media page (`docs/media.html`): Articles, Press, Podcasts, Talks, More video, Posts
+
+YouTube and X on Media stay as they are. Homepage copy, design, and other pages are not edited to add mentions — add a record here instead.
 
 ```json
 {
