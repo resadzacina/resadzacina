@@ -1,11 +1,12 @@
 # Media catalog
 
-`catalog.json` is the single pipeline for public material about Resad Zacina.
+`catalog.json` is the single pipeline. `scripts/scan.mjs` pulls watched feeds. `scripts/build.mjs` publishes to every surface:
 
-It feeds both:
-
-- the GitHub profile README (Latest + Writing / Press / Talks lists)
-- the extra sections on the original Media page (`docs/media.html`): Articles, Press, Podcasts, Talks, More video, Posts
+| Surface | Output |
+| --- | --- |
+| GitHub profile | `README.md` Latest strip |
+| GitHub archive | `ARCHIVE.md` — every record, grouped |
+| GitHub Pages + site Media | `docs/catalog.json` → `docs/media.html` |
 
 YouTube and X on Media stay as they are. Homepage copy, design, and other pages are not edited to add mentions — add a record here instead.
 
@@ -25,7 +26,6 @@ YouTube and X on Media stay as they are. Homepage copy, design, and other pages 
 `type` must be one of: `writing`, `press`, `podcast`, `video`, `talk`, `post`.
 
 ```bash
+node scripts/scan.mjs
 node scripts/build.mjs
 ```
-
-Weekly scan of watched feeds: `node scripts/scan.mjs`.

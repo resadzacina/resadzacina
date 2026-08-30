@@ -4,7 +4,7 @@ Geek / Founder / Operator / Venture builder working across **software engineerin
 
 Co-founder of **Ministry of Programming**, where we’ve helped build **122 products over 11+ years** for startups, scaleups, corporates, and venture-backed companies.
 
-This profile is the short version. The full public trail lives in [`data/catalog.json`](data/catalog.json) and shows up here **and** on [Media](https://resadzacina.com/media.html) at resadzacina.com.
+This profile is the short version. The same catalog feeds the [full GitHub archive](ARCHIVE.md), [GitHub Pages / Media](https://resadzacina.github.io/resadzacina/media.html), and [Media on resadzacina.com](https://resadzacina.com/media.html).
 
 ---
 
@@ -36,7 +36,10 @@ Each line is a live thread, not a static bio line. Same catalog, two doors:
 
 ## Latest
 
-The newest public trail, old and new mixed on purpose. Full list on the site: [Media](https://resadzacina.com/media.html).
+The newest public trail, old and new mixed on purpose.
+
+- Full list on GitHub: [ARCHIVE.md](ARCHIVE.md)
+- Full list on the site: [Media](https://resadzacina.com/media.html)
 
 <!-- latest:start -->
 - **2026-08-11** · post · [You should never forget the people who helped you build the company](https://www.linkedin.com/posts/resadzacina_you-should-never-forget-the-people-who-helped-activity-7492878748237643776-1eWv) — LinkedIn
@@ -53,10 +56,11 @@ The newest public trail, old and new mixed on purpose. Full list on the site: [M
 
 Public material does not live as one-off bullets. It lives in [`data/catalog.json`](data/catalog.json) — one record per article, podcast, video, talk, or post.
 
-That file is the pipeline. It feeds:
+That file is the pipeline. One scan, three surfaces:
 
 - **this GitHub profile** (Latest + the lists below)
-- **Media on resadzacina.com** (Articles, Press, Podcasts, Talks, More video, Posts)
+- **[ARCHIVE.md](ARCHIVE.md)** (every record, grouped like Media)
+- **Media** on resadzacina.com and on [GitHub Pages](https://resadzacina.github.io/resadzacina/media.html)
 
 - **Topics** are the glue. A 2016 Medium essay and a 2026 LinkedIn note on spec-driven work sit on the same thread.
 - **Types** (`writing`, `press`, `podcast`, `video`, `talk`, `post`) let people enter from the format they actually consume.
@@ -65,7 +69,7 @@ That file is the pipeline. It feeds:
 - Anything the scanner cannot see — a conference talk, a paywalled interview, a YouTube short — is one object away: add it to the catalog.
 
 ```txt
-scan the web → catalog.json → GitHub README + resadzacina.com/media.html
+scan the web → catalog.json → README + ARCHIVE.md + Media (site & Pages)
 ```
 
 ---
