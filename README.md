@@ -4,8 +4,6 @@ Geek / Founder / Operator / Venture builder working across **software engineerin
 
 Co-founder of **Ministry of Programming**, where we’ve helped build **122 products over 11+ years** for startups, scaleups, corporates, and venture-backed companies.
 
-This profile is the GitHub archive. The personal site is [resadzacina.com](https://resadzacina.com/). Full list here: [ARCHIVE.md](ARCHIVE.md).
-
 ---
 
 ## What I Work On
@@ -21,13 +19,9 @@ Startup intelligence
 Delivery quality and operational tooling
 ```
 
-Each line is a live thread in [ARCHIVE.md](ARCHIVE.md).
-
 ---
 
-## Latest
-
-The newest public trail. Full list: [ARCHIVE.md](ARCHIVE.md). The site stays at [resadzacina.com](https://resadzacina.com/).
+## Latest news and posts
 
 <!-- latest:start -->
 - **2026-08-11** · post · [You should never forget the people who helped you build the company](https://www.linkedin.com/posts/resadzacina_you-should-never-forget-the-people-who-helped-activity-7492878748237643776-1eWv) — LinkedIn
